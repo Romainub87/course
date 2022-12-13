@@ -5,7 +5,7 @@ import { useState } from "react";
 
 let nextId = 2;
 
-const products = [{ id: 1, product: "Banane", nb: 2, isCheck: true }];
+const products = [{ id: 1, product: "Exemple", nb: 1, isCheck: false }];
 
 function App() {
   const [productList, setProductList] = useState(products);
@@ -22,8 +22,10 @@ function App() {
     ]);
   }
 
-  function DeleteProduct(id) {
-    setProductList(productList.filter((p) => p.id !== id));
+  function DeleteProduct(bool, id) {
+    if (!bool) {
+      setProductList(productList.filter((p) => p.id !== id));
+    }
   }
 
   return (

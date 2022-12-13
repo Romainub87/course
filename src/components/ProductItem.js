@@ -14,7 +14,7 @@ function ProductItem({ product, nb, id,  removeProd }) {
       <input type="checkbox" value={isCheck} onChange={() => check(isCheck) }></input>
       <span className="product-name">{product}</span>
       <span className="product-nb"> x{nb}</span>
-      <button className="product-delete" onClick={() => removeProd(id)}>
+      <button className="product-delete" onClick={() => removeProd(isCheck, id)}>
         Delete
       </button>
     </li>

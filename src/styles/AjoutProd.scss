@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  border: 2px solid black;
   padding: 3%;
   padding-top: 0;
   border-radius: 25px;
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
+    background-color: rgb(196, 184, 184);
     padding: 3%;
     border-radius: 25px;
     font-family: "Courier New", Courier, monospace;
@@ -21,6 +21,7 @@
       display: flex;
       margin: 10px;
       align-items: center;
+      font-weight: bold;
 
       input {
         width: 100%;
@@ -34,11 +35,20 @@
 
     button {
       width: fit-content;
-      background-color: aqua;
+      background-color: rgb(255, 255, 255);
       border-radius: 25px;
       padding: 3%;
+      font-weight: bold;
       font-size: large;
+      border: none;
       font-family: "Courier New", Courier, monospace;
+      transform: scale(1.1);
+      transition: 300ms transform ease;
+
+      &:hover {
+        transform: scale(1);
+        transition: 300ms transform ease;
+      }
     }
   }
 }
