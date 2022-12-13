@@ -1,7 +1,7 @@
-import "../styles/AjoutTask.css";
+import "../styles/AjoutProd.css";
 import { useState } from "react";
 
-function AjoutTask({ addProduct }) {
+function AjoutProd({ addProduct }) {
   const [nameP, setNameP] = useState("");
   const [count, setCount] = useState(1);
 
@@ -43,4 +43,4 @@ function AjoutTask({ addProduct }) {
   );
 }
 
-export default AjoutTask;
+export default AjoutProd;

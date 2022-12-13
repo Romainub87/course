@@ -1,12 +1,12 @@
-import ToDoItem from "./ToDoItem";
-import "../styles/ToDoList.css";
+import ProductItem from "./ProductItem";
+import "../styles/ProductList.css";
 
-function ToDoList({ productList, removeProduct }) {
+function ProductList({ productList, removeProduct }) {
   return (
     <ul>
       {productList?.map((prod) => (
         <div key={prod.id}>
-          <ToDoItem
+          <ProductItem
             product={prod.product}
             nb={prod.nb}
             id={prod.id}
@@ -18,4 +18,4 @@ function ToDoList({ productList, removeProduct }) {
   );
 }
 
-export default ToDoList;
+export default ProductList;

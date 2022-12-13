@@ -1,6 +1,6 @@
-import AjoutTask from "./AjoutTask";
+import AjoutProd from "./AjoutProd";
 import "../styles/App.css";
-import ToDoList from "./ToDoList";
+import ProductList from "./ProductList";
 import { useState } from "react";
 
 let nextId = 2;
@@ -28,12 +28,12 @@ function App() {
 
   return (
     <div className="app">
-      <ToDoList
+      <ProductList
         productList={productList}
         addProduct={AddProduct}
         removeProduct={DeleteProduct}
-      ></ToDoList>
-      <AjoutTask addProduct={AddProduct}></AjoutTask>
+      ></ProductList>
+      <AjoutProd addProduct={AddProduct}></AjoutProd>
     </div>
   );
 }
