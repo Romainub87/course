@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Romainub87/react-demo.github.io/static/css/main.e6fd7577.css",
+    "main.js": "/Romainub87/react-demo.github.io/static/js/main.218b5cb8.js",
+    "static/js/787.51ddfb1f.chunk.js": "/Romainub87/react-demo.github.io/static/js/787.51ddfb1f.chunk.js",
+    "index.html": "/Romainub87/react-demo.github.io/index.html",
+    "main.e6fd7577.css.map": "/Romainub87/react-demo.github.io/static/css/main.e6fd7577.css.map",
+    "main.218b5cb8.js.map": "/Romainub87/react-demo.github.io/static/js/main.218b5cb8.js.map",
+    "787.51ddfb1f.chunk.js.map": "/Romainub87/react-demo.github.io/static/js/787.51ddfb1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6fd7577.css",
+    "static/js/main.218b5cb8.js"
+  ]
+}
