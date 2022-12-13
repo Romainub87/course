@@ -1,4 +1,4 @@
-
+import AjoutTask from "./AjoutTask";
 import "../styles/App.css";
 import Banner from "./Banner";
 import ToDoList from "./ToDoList";
@@ -11,6 +11,7 @@ function App() {
       </Banner>
       <div className="Main">
         <ToDoList></ToDoList>
+        <AjoutTask></AjoutTask>
       </div>
     </div>
   );

@@ -3,9 +3,14 @@ import '../styles/ToDoList.css';
 
 
 
+
 function ToDoList() {
 
+
+
     const todoList = [{ product: 'Banane', nb: 2, isCheck: true }];
+
+
 
     return (
         <div className="div-to-do-list">
@@ -16,6 +21,7 @@ function ToDoList() {
                     </div>
                 ))}
             </ul>
+
         </div>
     )
 }
