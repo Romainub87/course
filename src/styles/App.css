@@ -1,9 +1,9 @@
-.App {
+.app {
     margin: 0;
     padding: 0;
-}
-
-.Main {
+    height: 100vh;
+    align-items: center;
     display: flex;
     justify-content: space-around;
 }
+
