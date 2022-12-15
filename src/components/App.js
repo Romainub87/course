@@ -30,12 +30,12 @@ function App() {
 
   return (
     <div className="app">
+      <AjoutProd addProduct={AddProduct}></AjoutProd>
       <ProductList
         productList={productList}
         addProduct={AddProduct}
         removeProduct={DeleteProduct}
       ></ProductList>
-      <AjoutProd addProduct={AddProduct}></AjoutProd>
     </div>
   );
 }

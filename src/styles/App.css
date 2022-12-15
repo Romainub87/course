@@ -1,8 +1,9 @@
 .app {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
