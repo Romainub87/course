@@ -31,6 +31,7 @@ function App() {
   return (
     <div className="app">
       <ProductList
+      className="product-list"
         productList={productList}
         addProduct={AddProduct}
         removeProduct={DeleteProduct}

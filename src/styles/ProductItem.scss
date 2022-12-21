@@ -1,16 +1,17 @@
+
+
 .product-item-no-check {
   font-family: "Courier New", Courier, monospace;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border: 2px solid black;
-  padding: 5px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding: 15px;
   border-radius: 5px;
-  width: fit-content;
   margin: 3%;
   font-size: large;
+  position: sticky;
 
   .product-name {
     text-transform: uppercase;
@@ -34,17 +35,16 @@
 .product-item-check {
   font-family: "Courier New", Courier, monospace;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border: 2px solid black;
-  padding: 5px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding: 15px;
   border-radius: 5px;
-  width: fit-content;
   margin: 3%;
   font-size: large;
   opacity: 0.5;
+  position: sticky;
 
   .product-name {
     text-transform: uppercase;

@@ -2,5 +2,10 @@ ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  align-items: center;
+  align-items: baseline;
+  border: 2px solid black;
+  height: 50vh;
+  width: 80vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
