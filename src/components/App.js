@@ -31,12 +31,14 @@ function App() {
   return (
     <div className="app">
       <ProductList
-      className="product-list"
+        className="product-list"
         productList={productList}
         addProduct={AddProduct}
         removeProduct={DeleteProduct}
       ></ProductList>
-      <AjoutProd addProduct={AddProduct}></AjoutProd>
+      <AjoutProd
+        addProduct={AddProduct}
+      ></AjoutProd>
     </div>
   );
 }
