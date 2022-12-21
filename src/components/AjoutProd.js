@@ -4,7 +4,16 @@ import { useState } from "react";
 function AjoutProd({ addProduct }) {
   const [nameP, setNameP] = useState("");
   const [count, setCount] = useState(1);
-
+  const [isGood, setIsGood] = useState(true);
+  
+  function isGoodOrNot(e) {
+    if (e.target.value === "") {
+      setIsGood(true);
+    } else {
+      setIsGood(false);
+    }
+  }
+  
   return (
     <div className="div-form-ajout">
       <h1>Ajout produit</h1>
@@ -25,11 +34,12 @@ function AjoutProd({ addProduct }) {
             required
             placeholder="Entrer un produit"
             value={nameP}
-            onChange={(e) => setNameP(e.target.value)}
+            onChange={(e) => {setNameP(e.target.value); isGoodOrNot(e)}}
             name="prod"
           />
         </label>
         <button
+          disabled={isGood}
           onClick={() => {
             setCount(1);
             setNameP("");

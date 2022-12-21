@@ -8,6 +8,11 @@
     margin: auto;
     justify-content: space-around;
     max-width: 90%;
+    min-width: 300px;
 
 
+}
+
+body {
+    background-color: bisque;
 }

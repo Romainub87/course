@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #c4b8b8;
   padding: 3%;
   border-radius: 25px;
   font-family: "Courier New", Courier, monospace;
@@ -35,20 +34,18 @@
   padding: 15px;
 }
 
+@media screen and (max-width: 450px) {
+  .div-form-ajout .form-ajout .label-form input {
+    font-size: small;
+  }
+}
+
 .div-form-ajout .form-ajout button {
   width: fit-content;
-  background-color: white;
   border-radius: 25px;
   padding: 3%;
   font-weight: bold;
   font-size: large;
   border: none;
   font-family: "Courier New", Courier, monospace;
-  transform: scale(1.1);
-  transition: 300ms transform ease;
-}
-
-.div-form-ajout .form-ajout button:hover {
-  transform: scale(1);
-  transition: 300ms transform ease;
 }

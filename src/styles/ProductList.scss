@@ -2,10 +2,15 @@ ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  align-items: baseline;
+  align-items: center;
   border: 2px solid black;
   height: 50vh;
-  width: 80vw;
+  width: 40vw;
+  padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+
+  @media screen and (max-width: 450px) {
+    width: 80vw;
+  }
 }
