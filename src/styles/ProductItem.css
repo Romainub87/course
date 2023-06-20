@@ -1,14 +1,11 @@
 .product-item-no-check {
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   padding: 15px;
-  border-radius: 5px;
-  margin: 3%;
-  font-size: large;
+  font-size: x-large;
   position: sticky;
 }
 
@@ -16,31 +13,34 @@
   text-transform: uppercase;
 }
 
+.product-item-no-check .checkbox {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 .product-item-no-check .product-nb {
   margin-left: 5%;
 }
 
 .product-item-no-check .product-delete {
-  margin-left: 5%;
+  margin-left: 15px;
   border-radius: 5px;
   border: none;
-  padding: 5%;
+  padding: 15px;
   background-color: #ff3d3d;
-  font-family: "Courier New", Courier, monospace;
   color: white;
+  cursor: pointer;
 }
 
 .product-item-check {
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  border: 2px solid black;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
   padding: 15px;
-  border-radius: 5px;
-  margin: 3%;
-  font-size: large;
+  font-size: x-large;
   opacity: 0.5;
   position: sticky;
 }
@@ -49,16 +49,22 @@
   text-transform: uppercase;
 }
 
+.product-item-check .checkbox {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 .product-item-check .product-nb {
   margin-left: 5%;
 }
 
 .product-item-check .product-delete {
-  margin-left: 5%;
+  margin-left: 15px;
   border-radius: 5px;
   border: none;
-  padding: 5%;
+  padding: 15px;
   background-color: #ff3d3d;
-  font-family: "Courier New", Courier, monospace;
   color: white;
+  cursor: pointer;
 }

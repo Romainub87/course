@@ -5,7 +5,7 @@ function ProductList({ productList, removeProduct }) {
   return (
     <ul>
       {productList?.map((prod) => (
-        <div key={prod.id}>
+        <div key={prod.id} className="item">
           <ProductItem
             product={prod.product}
             nb={prod.nb}

@@ -16,6 +16,7 @@ function ProductItem({ product, nb, id, removeProd }) {
         }`}
       >
         <input
+        className="checkbox"
           type="checkbox"
           value={isCheck}
           onChange={() => check(isCheck)}
